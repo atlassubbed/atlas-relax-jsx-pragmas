@@ -1,6 +1,6 @@
 {
   "name": "atlas-relax-jsx-pragmas",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JSX pragmas (hyperscript and Fragment) for Relax.",
   "scripts": {
     "test-server": "mocha --colors --watch --recursive './test/**/*.test.js'",
