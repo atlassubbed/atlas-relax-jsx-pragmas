@@ -1,15 +1,35 @@
 {
-  "name": "atlas-relax-jsx-pragma",
+  "name": "atlas-relax-jsx-pragmas",
   "version": "1.0.0",
-  "description": "JSX pragmas for Relax",
+  "description": "JSX pragmas (hyperscript and Fragment) for Relax.",
   "scripts": {
     "test-server": "mocha --colors --watch --recursive './test/**/*.test.js'",
     "test": "mocha --colors --recursive './test/**/*.test.js'"
   },
   "main": "./src/index.js",
-  "keywords": [],
+  "keywords": [
+    "atlassubbed",
+    "pragma",
+    "relax",
+    "react",
+    "reactive",
+    "meteor",
+    "declarative",
+    "async",
+    "diffing",
+    "vdom",
+    "framework",
+    "virtual-dom",
+    "components",
+    "hyperscript",
+    "jsx",
+    "reconciliation",
+    "lifecycle",
+    "virtual",
+    "dom"
+  ],
   "author": "atlassubbed <atlassubbed@gmail.com>",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "devDependencies": {
     "chai": "^4.1.2",
     "mocha": "^5.2.0"
