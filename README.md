@@ -1,4 +1,4 @@
-# atlas-relax-jsx-pragma
+# atlas-relax-jsx-pragmas
 
 JSX pragmas (hyperscript and Fragment) for Relax.
 
@@ -14,7 +14,7 @@ JSX pragmas (hyperscript and Fragment) for Relax.
 ## install
 
 ```
-npm install --save atlas-relax-jsx-pragma
+npm install --save atlas-relax-jsx-pragmas
 ```
 
 Make sure you have the babel plugin `babel-plugin-transform-react-jsx` installed (e.g. add it to your `.babelrc`) if you are using this as a pragma.
@@ -27,7 +27,7 @@ This is like any other JSX pragma. Include the following in your JSX files:
 
 ```javascript
 // t stands for "template hyperscript", A stands for Array group (i.e. Fragment)
-const { t, A } = require("atlas-relax-jsx-pragma");
+const { t, A } = require("atlas-relax-jsx-pragmas");
 /** @jsx t */
 /** @jsxFrag A */
 
@@ -46,7 +46,7 @@ Babel also lets you specify the pragmas in your `.babelrc` so that you don't hav
 You could use this as a hyperscript function without JSX, but it's not strictly necessary, since Relax templates are plain old object literals.
 
 ```javascript
-const { t } = require("atlas-relax-jsx-pragma");
+const { t } = require("atlas-relax-jsx-pragmas");
 
 // using t as a more concise way to create templates
 const template = t(
